@@ -19,7 +19,7 @@ RUN apt-get update && \
 
 RUN pip install opencv-python
 
-COPY OpenCV-Playing-Card-Detector/ /work/
+COPY Card_Detector/ /work/
 
 WORKDIR work
 
